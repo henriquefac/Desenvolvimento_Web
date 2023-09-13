@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .formatacao{
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+        .titulo{
+            border-radius: 10px;
+            background-color: blue;
+            color:#fafafa;
+            text-align: center;
+            font-size: 30px;
+        }
+        .forms{
+            border-radius: 10px;
+            background-color:rgba(46, 46, 47, 0.6);
+            
+        }
+        .iner_form{
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 2%;
+            
+            
+        }
+        .space{
+            margin-left: 70px;
+        }
+        .line{
+            display: inline;
+        }
+        .legend{
+            font-size: smaller;
+            opacity: 50%;
+        }
+        .type_text{
+            height: 30px;
+            width: 220px;
+        }
+
+        .big_text{
+            height: 30px;
+            width:520px;
+        }
+    </style>
+</head>
+<body>
+    <div class="formatacao">
+        <div style="margin-top: 90px;"></div>
+
+
+        <div class="titulo">
+            Formuário de Cadastro
+        </div>
+        
+        <div style="margin-top: 45px;"></div>
+
+        <!-- formulário -->
+        <fieldset class="forms">
+        <div class="iner_form">
+            <!-- linha -->
+            <div style="display: flex;">
+
+                <div>Nome e <br>sobrenome</div> 
+            
+                <div class = "space"></div>
+            
+                <div>
+                    <input type="text" name ="nome" size = "30" class="type_text">
+                    <br>
+                    <a class="legend">Nome</a>
+                </div> 
+                <div class = "space"></div>
+                <div>
+                    <input type="text" name ="sobrenome" size = "30" class="type_text">
+                    <br>
+                    <a class="legend">Sobrenome</a>
+                </div> 
+            </div>   
+            
+            <!-- linha2 -->
+            <br><br>
+            <div style="display: flex;">
+                <div>Empresa</div>
+
+                <div class = "space"></div>
+                <div style="width: 12px;"></div>
+                <div>
+                    <input type="text" name ="empresa" size = "30" class="type_text" style = "width:520px;">
+                    
+                </div>
+            </div>
+
+            <br><br>
+
+            <!-- linha3 -->
+            <div style="display: flex;">
+                <div>Email</div>
+                <div class = "space" style="width: 29px;"></div>
+
+                <div>
+                    <input class="big_text" type="text" name = "email">
+                </div>
+            </div>
+            <br>
+            <br>    
+            <!-- linha4 -->
+            <div style="display: flex;">
+                <div>Telefone com <br> DDD</div>
+                <div class = "space" style="margin-right: -20px;"></div>
+
+                <div>
+                    <input type="text" style="width: 100px; height: 30px;">
+                    <br> <a class = "legend">DDD</a>
+                </div>
+
+                <div class="space"></div>
+                
+                <div>
+                    <input type="text" style="width: 343px; height: 30px;">
+                    <br> <a class = "legend">DDD</a>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    </div>
+    
+</body>
+</html>
