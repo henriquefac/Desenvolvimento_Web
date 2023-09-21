@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .format{
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+        .titulo{
+            border-radius: 10px;
+            background-color: blue;
+            color:#fafafa;
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        .forms{
+            border-radius: 10px;
+            background-color:rgba(46, 46, 47, 0.6);
+            
+        }
+        input{
+            margin: 20px 0 20px 0;
+        }
+    </style>
+</head>
+<body >
+    <div class="format">
+        <!-- titulo -->
+        <div style="margin-top: 70px;"></div>
+
+
+        <div class="titulo">
+            Formuário de Cadastro
+        </div>
+
+        <!-- formulario -->
+        <fieldset class="forms">
+            <form style="margin: 0 15% 0 15%;color: #fafafa;">
+                <span><label>Event Name</label></span>
+                <input name = "EventName" type="text" size="70%" maxlength="100" required> <br>
+                <span><label>Start Date</label></span>
+                <input type="date" name="StartDate" >
+                <a style="margin: 0 120px 0 100px;"></a>
+                <span><label>End Date</label></span>
+                <input type="date" name="EndDate" >
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>

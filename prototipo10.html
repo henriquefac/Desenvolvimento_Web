@@ -29,6 +29,9 @@
             
             
         }
+        .text{
+            color: #fafafa;
+        }
         .space{
             margin-left: 70px;
         }
@@ -50,7 +53,7 @@
         }
     </style>
 </head>
-<body>
+<body style="background-image: url('background10.jpg');">
     <div class="formatacao">
         <div style="margin-top: 90px;"></div>
 
@@ -67,27 +70,27 @@
             <!-- linha -->
             <div style="display: flex;">
 
-                <div>Nome e <br>sobrenome</div> 
+                <div class="text">Nome e <br>sobrenome</div> 
             
                 <div class = "space"></div>
             
                 <div>
                     <input type="text" name ="nome" size = "30" class="type_text">
                     <br>
-                    <a class="legend">Nome</a>
+                    <a class="legend" style="color: #fafafa;">Nome</a>
                 </div> 
                 <div class = "space"></div>
                 <div>
                     <input type="text" name ="sobrenome" size = "30" class="type_text">
                     <br>
-                    <a class="legend">Sobrenome</a>
+                    <a class="legend" style="color: #fafafa;">Sobrenome</a>
                 </div> 
             </div>   
             
             <!-- linha2 -->
             <br><br>
             <div style="display: flex;">
-                <div>Empresa</div>
+                <div style="color: #fafafa;">Empresa</div>
 
                 <div class = "space"></div>
                 <div style="width: 12px;"></div>
@@ -101,7 +104,7 @@
 
             <!-- linha3 -->
             <div style="display: flex;">
-                <div>Email</div>
+                <div style="color: #fafafa;">Email</div>
                 <div class = "space" style="width: 29px;"></div>
 
                 <div>
@@ -112,19 +115,48 @@
             <br>    
             <!-- linha4 -->
             <div style="display: flex;">
-                <div>Telefone com <br> DDD</div>
+                <div style="color: #fafafa;">Telefone com <br> DDD</div>
                 <div class = "space" style="margin-right: -20px;"></div>
 
                 <div>
                     <input type="text" style="width: 100px; height: 30px;">
-                    <br> <a class = "legend">DDD</a>
+                    <br> <a class = "legend" style="color: #fafafa;">DDD</a>
                 </div>
 
                 <div class="space"></div>
                 
                 <div>
                     <input type="text" style="width: 343px; height: 30px;">
-                    <br> <a class = "legend">DDD</a>
+                    <br> <a class = "legend" style="color: #fafafa;">DDD</a>
+                </div>
+            </div>
+            <br><br>
+            <!-- linha5 -->
+            <div>
+
+                <div style="margin-right: 32px;display: flex;"></div>
+                    <a style="color: #fafafa;">Sexo<a>  
+                    <a class = "space" style="margin-right: 30px;"></a>  
+                    <input type="text" style="width: 520px; height: 30px;"> 
+                
+                <div>
+                    <a class = "space" style="margin-right: 66px;"></a>
+                    <a class = "legend" style="color: #fafafa;">Sexo</a>
+                </div>
+            </div>
+
+            <br><br>
+            <!-- linha6 -->
+            <div>
+                <div style="color: #fafafa;">Você é iniciante?</div>
+                <div>
+                    <input  type="radio" name="i">
+                    <a style="color: #fafafa;">Sim</a>
+                    <input type="radio" name="i">
+                    <a style="color: #fafafa;">Não</a>
+                </div>
+                <div>
+                    <button style="width: 140px;border-radius: 10px;background-color: aqua;">Entrar</button>
                 </div>
             </div>
         </div>
